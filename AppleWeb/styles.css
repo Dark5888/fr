@@ -1,0 +1,105 @@
+.logo > img {
+    display:flex;
+    max-width:50px;
+    margin-left:20px;
+  }
+  .phone-page{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:40px;
+  }
+  .phone-page > section > h2,p,h3{
+    text-align:center;
+  }
+  .features{
+    text-align:center;
+  }
+  .phone-page > section > img{
+    margin-left:50px;
+  }
+  #ad{
+    width:90%;
+    margin: 0 auto;
+  }
+  #ad > iframe{
+    width:100%;
+    height:600px;
+  }
+  nav > ul {
+    list-style-type:none;
+    display:flex;
+    justify-content:space-evenly;
+    position:fixed;
+    top: 0;
+    right: 0;
+    gap:40px;
+  
+  }
+  nav > ul > li > a{
+    text-decoration:none;
+    color:black;
+    padding:10px;
+  
+  
+  }
+  #header{
+    width: 100%;
+    height: 60px;
+    background-color: #FAFAFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  #header-img{
+    height:50px;
+  }
+  #right-nav{
+    padding-right:100px;
+  }
+  @media only screen and (max-width: 500px){
+    nav > ul {
+    list-style-type:none;
+    display:flex;
+    justify-content:space-evenly;
+    position:fixed;
+    top: 0;
+    right: 0;
+    gap:20px;
+    }
+  }
+  .header-word{
+    font-size: 40px;
+    padding-left:30px;
+  } 
+  .phone-page > section > figure > figcaption{
+    color:#373739;
+  }
+  body {
+    font-family:"San Francisco", roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: roboto, serif;
+  }
+  
+  #submit{
+    background-color:#0071E3;
+    color:white;
+    border-radius: 20px;
+    padding:5px 10px
+  }
+  #email{
+    padding:10px;
+  }
+  .phone-page{
+    background-color: #F5F5F7;
+    padding:10px;
+  }
+  #contact{
+    margin:auto auto;
+    text-align: center;
+  }
